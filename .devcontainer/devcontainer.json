@@ -1,0 +1,20 @@
+{
+    "name": "My Development Container",
+    "context": "..",
+    "dockerFile": "../Dockerfile",
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+      "ms-vscode.cpptools",
+      "ms-python.python",
+      "esbenp.prettier-vscode"
+    ],
+    "postCreateCommand": "echo 'Container is ready!'",
+    "forwardPorts": [
+    ],
+    "appPort": [
+    5000
+    ]
+  }
+  
