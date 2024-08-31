@@ -25,4 +25,3 @@ Swagger-UI can be used to test the application.
 ![alt text](sample-flask-application.png)
 
 The server will start at <http://localhost:5000>.
-
